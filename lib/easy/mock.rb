@@ -1,4 +1,5 @@
 require "easy/mock/version"
+require "csv"
 
 module Easy
   module Mock
