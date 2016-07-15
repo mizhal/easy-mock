@@ -19,5 +19,7 @@ describe Easy::Mock do
 
   	expect{ x = X.new }.not_to raise_error
 
+    expect{ X.export_to_csv "test.csv" }.not_to raise_error
+
   end
 end
